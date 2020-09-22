@@ -17,16 +17,16 @@ function start(){
 
 	
 
-	tl.to(".cal_1", .6, {...to}, "hero2")
+	tl.to(".cal_1", 1, {...to}, "hero2")
 	// tl.from(".cal_2", .001, {opacity:0}, "hero2")
 	tl.from(".hero2", .01, {opacity:0}, "hero2")
 
 	tl.add("hero3", "+=2")
-	tl.to(".cal_2", .6, {...to}, "hero3")
+	tl.to(".cal_2", 1, {...to}, "hero3")
 	// tl.from(".cal_3", .001, {opacity:0}, "hero2-=.1")
 	tl.from(".hero3", .01, {opacity:0}, "hero3")
 
-	tl.to(".hero3", 3, {scale:.333333, x:0, y:0, ease:Power4.easeIn}, "hero3")
+	tl.to(".hero3", 3, {scale:.333333, x:0, y:0, ease:Power1.easeIn}, "hero3")
 
 	tl.set([".hero1", ".hero2"], {opacity:0}, "+=2")
 
