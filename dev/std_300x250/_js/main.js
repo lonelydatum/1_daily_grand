@@ -10,19 +10,19 @@ function start(){
 	tl.from(".t1", .2, {opacity:0})
 
 	const from = {x:"+=150", rotation:50, opacity:0, scale:.3, ease:Back.easeOut}
-	const to = {x:"-=150", y:"-=30", rotation:50, scale:.7, opacity:.2, ease:Back.easeOut}
+	const to = {x:"-=150", y:"-=60", rotation:50, scale:.7, opacity:.2, ease:Back.easeOut}
 
 	// tl.from(".cal_1", .3, {...from} , "+=1")
 	tl.add("hero2", "+=2")
 
 	
 
-	tl.to(".cal_1", 1, {...to}, "hero2")
+	tl.to(".cal_1", 1.3, {...to}, "hero2")
 	// tl.from(".cal_2", .001, {opacity:0}, "hero2")
 	tl.from(".hero2", .01, {opacity:0}, "hero2")
 
 	tl.add("hero3", "+=2")
-	tl.to(".cal_2", 1, {...to}, "hero3")
+	tl.to(".cal_2", 1.3, {...to}, "hero3")
 	// tl.from(".cal_3", .001, {opacity:0}, "hero2-=.1")
 	tl.from(".hero3", .01, {opacity:0}, "hero3")
 
