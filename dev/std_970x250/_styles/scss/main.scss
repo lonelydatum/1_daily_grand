@@ -1,0 +1,50 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	opacity: 1;
+}
+
+.cal{
+	transform-origin: 1800px 160px;
+	@include pos-scale-rotate(-900, -80, .5, 0);
+}
+
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 970px;
+	height: 250px;
+}
+
+
+#hero{
+	transition: .5s ease-in-out;
+	width: 100%;
+	height: 100%;
+	@include pos(0, 0);
+	clip-path: polygon(579px 0px, 970px 0px, 970px 250px, 504px 250px);  
+}
+
+#hero.out{
+	
+	// clip-path: polygon(300px 0px, 300px 0px, 300px 250px, 300px 250px);  
+	clip-path: polygon(970px 0px, 970px 0px, 970px 250px, 970px 250px);  
+}
+
+.hero1{
+	@include pos-scale(0, 0, .5);
+}
+
+.hero2{
+	@include pos-scale(0, 0, .5);
+}
+
+.hero3{
+	@include pos-scale(0, 0, .5);
+}
