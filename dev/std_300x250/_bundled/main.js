@@ -61,7 +61,7 @@ function start(to_) {
 	var tl = new TimelineMax();
 
 	tl.add((0, _commonJsCommonJs.first)(to_));
-	tl.to(".hero3", 3, { scale: .333333, x: 0, y: 0, ease: Power1.easeIn }, "hero3");
+	tl.to(".hero3", 3, { scale: .333333, x: 0, y: 0, ease: Power1.easeIn }, "hero3-=1");
 	tl.add((0, _commonJsCommonJs.last)());
 
 	// tl.gotoAndPlay("hero3")	

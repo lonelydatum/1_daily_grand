@@ -288,9 +288,9 @@ sup {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  -webkit-transform: translate(-46px, -366px) scale(0.82, 0.82);
-  -ms-transform: translate(-46px, -366px) scale(0.82, 0.82);
-  transform: translate(-46px, -366px) scale(0.82, 0.82);
+  -webkit-transform: translate(-102px, -220px) scale(0.69, 0.69);
+  -ms-transform: translate(-102px, -220px) scale(0.69, 0.69);
+  transform: translate(-102px, -220px) scale(0.69, 0.69);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
