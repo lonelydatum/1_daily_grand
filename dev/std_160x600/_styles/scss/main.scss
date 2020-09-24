@@ -47,7 +47,8 @@
 
 .hero3{
 	@include pos-scale(0, 0, .33333333);
-	@include pos-scale(-102, -220, .69);
+	//translate(-41px, -215px) scale(0.68)
+	@include pos-scale(-41, -215, .68);
 	
 	
 }
